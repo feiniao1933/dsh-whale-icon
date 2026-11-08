@@ -7,6 +7,8 @@
 > The DeepSeek blue whale on the DSH composer send/stop button, swimming while the agent works.
 > 把 DSH 输入框的发送 / 停止生成按钮换成 DeepSeek 品牌蓝色鲸鱼，Agent 运行时游动起来。
 
+![The DeepSeek whale send/stop button in the DSH composer](screenshots/composer-send-button.png)
+
 ---
 
 ## English
