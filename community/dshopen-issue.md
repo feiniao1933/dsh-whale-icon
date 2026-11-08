@@ -1,6 +1,6 @@
 # dshopen.org 收录申请
 
-打开 https://github.com/polang233/dsh-plugin-index/issues/new?template=plugin-add.yml
+已提交：https://github.com/polang233/dsh-plugin-index/issues/326
 
 ## 标题
 
@@ -15,7 +15,7 @@ Git 来源（npm 暂未发布）：
 ```text
 仓库：https://github.com/feiniao1933/dsh-whale-icon
 版本：1.2.0
-提交：<COMMIT_SHA>
+提交：198230d57b0424dd8dfadcbee6adc1325d050e9f
 路径：仓库根目录
 ```
 
@@ -43,5 +43,5 @@ Replaces the DSH composer's primary send/stop button with the official DeepSeek 
 Logo: 包内 icon.svg（也通过 ./icon 导出）
 测试版本：DSH 0.2.2-rc.1，macOS
 许可证：MIT
-安装（固定提交）：dsh plugin --profile web add git+https://github.com/feiniao1933/dsh-whale-icon.git#<COMMIT_SHA>
+安装（固定提交）：dsh plugin --profile web add git+https://github.com/feiniao1933/dsh-whale-icon.git#198230d57b0424dd8dfadcbee6adc1325d050e9f
 ```

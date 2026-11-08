@@ -2,8 +2,8 @@
 
 ## 发布渠道
 
-- **Open Plugin Market（dshopen.org）**：收录申请 Issue：<ISSUE_URL>
-- **awesome-dsh-plugin（dsh-market 目录）**：单文件 PR：<PR_URL>
+- **Open Plugin Market（dshopen.org）**：收录申请 Issue：https://github.com/polang233/dsh-plugin-index/issues/326
+- **awesome-dsh-plugin（dsh-market 目录）**：单文件 PR：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/13198
 
 ## 已完成
 
