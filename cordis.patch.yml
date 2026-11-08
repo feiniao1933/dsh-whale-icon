@@ -1,0 +1,5 @@
+# DeepSeek whale send/run icon for the composer.
+# Only the primary send/stop button is restyled; the model selector keeps its default look.
+- insert:
+    - id: whale-send-icon
+      name: dsh-whale-icon

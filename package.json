@@ -1,0 +1,55 @@
+{
+  "name": "dsh-whale-icon",
+  "version": "1.2.0",
+  "description": "Replaces the DSH composer send/stop button with the DeepSeek blue whale, animated while the agent is running.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Poboy <feiniao1933@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/feiniao1933/dsh-whale-icon.git"
+  },
+  "homepage": "https://github.com/feiniao1933/dsh-whale-icon#readme",
+  "bugs": {
+    "url": "https://github.com/feiniao1933/dsh-whale-icon/issues"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "deepseek-harness",
+    "deepseek",
+    "whale",
+    "send-icon",
+    "ui",
+    "animation"
+  ],
+  "engines": {
+    "dsh": ">=0.2.2-rc.1"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-conversation"]
+    }
+  }
+}
