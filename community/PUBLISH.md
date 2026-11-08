@@ -12,10 +12,10 @@
 - `npm pack` 校验通过
 - GitHub 安装验证通过：临时 profile 中 `dsh plugin --profile whale-test add github:feiniao1933/dsh-whale-icon` 安装 `dsh-whale-icon 1.2.0`，`--dump-config` 中出现 `whale-send-icon` 行
 - 当前 profile 已从 `@deepseek-ai/dsh-session-whale-icon` 迁移到 `dsh-whale-icon`，Client 插槽已验证可用
-- 真实使用截图：`screenshots/composer-send-button.png`，通过 `screenshots.json` 声明
+- 真实使用截图：`screenshots/composer-send-button.png`，通过 `screenshots.json` 声明；已补充到 dshopen Issue 评论 https://github.com/polang233/dsh-plugin-index/issues/326#issuecomment-6719802212
 
 ## 待办
 
-- [ ] awesome-dsh-plugin 的仓库年龄门槛（创建满 1 天）自动重跑通过
+- [ ] awesome-dsh-plugin 的仓库年龄门槛（创建满 1 天）自动重跑通过。当前 gate 结果：仅「repository is 0.0 days old (needs 1)」失败，其余检查通过；约 24h 后自动重跑
 - [ ] 可选：npm 登录后 `npm publish --access public`
 - [x] 补充真实使用截图到 `screenshots.json`
