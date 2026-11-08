@@ -10,6 +10,7 @@
 - 公开源码仓库：https://github.com/feiniao1933/dsh-whale-icon（`main` 已推送）
 - 发布用包：`dsh-whale-icon@1.2.0`，MIT，`repository` / `engines.dsh` / `dsh.bundle.patch` 齐全
 - `npm pack` 校验通过
+- GitHub 安装验证通过：临时 profile 中 `dsh plugin --profile whale-test add github:feiniao1933/dsh-whale-icon` 安装 `dsh-whale-icon 1.2.0`，`--dump-config` 中出现 `whale-send-icon` 行
 - 当前 profile 已从 `@deepseek-ai/dsh-session-whale-icon` 迁移到 `dsh-whale-icon`，Client 插槽已验证可用
 
 ## 待办
