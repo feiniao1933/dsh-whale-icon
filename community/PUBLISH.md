@@ -2,7 +2,7 @@
 
 ## 发布渠道
 
-- **Open Plugin Market（dshopen.org）**：收录申请 Issue：https://github.com/polang233/dsh-plugin-index/issues/326
+- **Open Plugin Market（dshopen.org）**：✅ 已收录（2026-11-09），插件页 https://dshopen.org/zh/plugins/dsh-whale-icon/ ，版本 1.2.0，固定提交 `198230d57b0424dd8dfadcbee6adc1325d050e9f`，标签 `verified` / `updated-recent`；申请 Issue：https://github.com/polang233/dsh-plugin-index/issues/326
 - **awesome-dsh-plugin（dsh-market 目录）**：单文件 PR：https://github.com/awesome-dsh-plugin/awesome-dsh-plugin/pull/13198
 
 ## 已完成
@@ -16,6 +16,6 @@
 
 ## 待办
 
-- [ ] awesome-dsh-plugin 的仓库年龄门槛（创建满 1 天）自动重跑通过。当前 gate 结果：仅「repository is 0.0 days old (needs 1)」失败，其余检查通过；约 24h 后自动重跑
+- [ ] awesome-dsh-plugin 合并。首次 gate 仅因仓库年龄 0.0 天失败；仓库已满 1 天，已推送空提交重新触发 gate，CI 进行中
 - [ ] 可选：npm 登录后 `npm publish --access public`
 - [x] 补充真实使用截图到 `screenshots.json`
